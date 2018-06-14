@@ -2,6 +2,7 @@
 
 body { 
     background-image: url("./what-the-hex.png");
+    
    
 
 }
@@ -14,24 +15,14 @@ body {
 
 
 
-.maincontent {
-    max-width: 960px;
-    margin: auto;
-    margin-top: 100px; 
-    line-height: 1.5;
-    color: gray;
-    height: auto;
-    background-color: white;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-}
 
 /*Jumbotron*/
 
 .jumbotron {
 max-width:960px;
 margin: auto;
+width:100%;
+font-size:10vw;
 }
 
 
@@ -39,9 +30,8 @@ margin: auto;
 .placeholderimage {
     float: left;
     padding: 10px;
+    max-width: 100%;
 }
-
-/*Portfolio Gallery*/
 
   
   footer {
